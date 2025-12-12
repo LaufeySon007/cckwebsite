@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <title> CCK Management Panel </title>
+    <link rel="icon" href="download.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">   
+
+<script>
+
+function Login(form) { username = new Array("admin"); password = new Array("5286"); page = "cadetmngmnt" + ".html"; if (form.username.value == username[0] && form.password.value == password[0] || form.username.value == username[1] && form.password.value == password[1] ||
+
+form.username.value == username[2] && form.password.value == password[2] || form.username.value == username[3] && form.password.value == password[3] ||
+
+form.username.value == username[4] && form.password.value == password[4] || form.username.value == username[5] && form.password.value == password[5] ||
+
+form.username.value == username[6] && form.password.value == password[6] || form.username.value == username[7] && form.password.value == password[7] ||
+
+form.username.value == username[8] && form.password.value == password[8] || form.username.value == username[9] && form.password.value == password[9]) { self.location.href = page; } else { alert("Either the username or password you entered is incorrect.\nPlease try again."); form.username.focus(); } return true; }
+
+</script> </head> <body bgcolor="#eeeeee"> <div class="login-box"><img src="avatar.png" class="avatar"><h1>Login Here</h1><form> <br> <p>Username: <input type="text" name="username" placeholder="Enter Username">
+
+ <br> Password: <input type="password" name="password" placeholder="Enter Password">
+
+ <br> <input type="button" value="Login" onClick="Login(this.form);"  onMouseOut="this.style.color = '#000000';" onFocusr="this.style.color = '#404040';" onBlur="this.style.color = '#000000';"><a href="forgotpass.html">Forget Password</a> </h5> <br /> <br /><br /><br /><br /><br /><br /><br /><center><p2 style="color:white;"><center>Copyright ©  From 2010 - 2019 By VIRU-G</center></p1> </center> </form> </body> </html>

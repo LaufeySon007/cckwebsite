@@ -1,0 +1,6 @@
+<html>
+<title>Recover Password</title>
+<Head>
+<h1>WHICH TYPE OF RECOVER ?</h1>
+<p1><a href ="forgot.html"I forgot my password</a></p1>
+</html>

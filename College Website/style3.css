@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family:Verdana;
+}
+
+    .overHid {
+    display:block;
+    position:relative;
+    overflow:hidden;
+}
+    .header, .footer {
+    width:100%;
+    height:auto;
+    display:block;
+    position:relative;
+}
+    .header {
+    height:150px;
+    border-bottom:3px solid #002c60;
+}
+.header .container{
+  height:49px;
+}
+   .subHead {
+    height:200px;
+    background:url(../images/head1.png) center center no-repeat;
+}
+     .container{
+     width:960px;
+     margin:0 auto;
+     display:block;
+     position:relative;
+     overflow:hidden;
+}
+     .avatar{
+     display:block;
+     width:1280px;
+     height:150px;
+     float: left; 
+}
+     .image{
+     display:block;
+     width:200px;
+     height:200px;
+     float: center; 
+}
+     .tablogo{
+     display:block;
+     width:25px;
+     height:25px;
+     float: left; 
+}
+h1{
+     margin: 0;
+     padding: 0 0 20px;
+     display:block;
+     text-align: center;
+     font-size: 19px;
+}
+h4{
+     margin: 0;
+     padding: 0 0 20px;
+     display:block;
+     text-align: center;
+     font-size: 15px;
+     float: center;
+}
+h7{
+     margin: 0;
+     padding: 0 0 20px;
+     display:block;
+     text-align: center;
+     font-size: 17px;
+     float: center;
+}
+      </body>
+</html>
